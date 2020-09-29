@@ -1,4 +1,19 @@
 site_name: EksIntec Dokumentation
 
+markdown_extensions:
+  - attr_list  
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.smartsymbols
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
 theme: 
     name: material
+    palette: 
+       scheme: slate 
